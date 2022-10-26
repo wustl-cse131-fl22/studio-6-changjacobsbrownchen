@@ -50,6 +50,7 @@ public class IterativeMethods {
 				// we do not need to use a temp variable
 				reversed[index] = array[mirrorIndex];
 				reversed[mirrorIndex] = array[index];
+				
 			}
 		}
 		return reversed;
